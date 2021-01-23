@@ -25,5 +25,6 @@
             "name": "Francesco Terenzani",
             "email": "f.terenzani@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }

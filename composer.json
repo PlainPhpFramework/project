@@ -1,0 +1,29 @@
+{
+    "name": "plainphp/project",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "plainphp/core-package": "~1.0",
+        "plainphp/library": "~1.0",
+        "cocur/slugify": "^4.0"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.8"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/lib/"
+        },
+        "exclude-from-classmap": ["/Tests/", "/test/", "/tests/"]
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "Francesco Terenzani",
+            "email": "f.terenzani@gmail.com"
+        }
+    ]
+}

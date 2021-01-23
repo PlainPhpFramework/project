@@ -1,4 +1,4 @@
 /env/**
-!/env/env.php
+!/env/env.php.dist
 /vendor/
 composer.lock

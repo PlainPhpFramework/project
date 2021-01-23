@@ -5,7 +5,7 @@
 
 // First setup the include path
 $base = realpath(__dir__.'/..');
-set_include_path(implode(DIRECTORY_SEPARATOR, [
+set_include_path(implode(PATH_SEPARATOR, [
     $base . '/app',
     $base . '/packages',
 ]));

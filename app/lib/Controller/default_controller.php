@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-class default_http
+class default_controller
 {
 	function index()
 	{

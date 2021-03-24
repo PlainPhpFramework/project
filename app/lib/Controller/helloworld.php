@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-class helloworld_http
+class helloworld
 {
 	function index() 
 	{

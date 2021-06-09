@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-class HelloWorld
+class helloworld
 {
 	function index() 
 	{

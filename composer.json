@@ -3,8 +3,8 @@
     "type": "project",
     "require": {
         "php": ">=8.0",
-        "plainphp/core-package": "~1.0",
-        "plainphp/library": "~1.0",
+        "plainphp/core-package": "dev-develop",
+        "plainphp/library": "dev-develop",
         "cocur/slugify": "^4.0"
     },
     "require-dev": {
@@ -25,5 +25,6 @@
             "name": "Francesco Terenzani",
             "email": "f.terenzani@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }

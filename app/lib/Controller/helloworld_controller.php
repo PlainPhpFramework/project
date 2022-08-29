@@ -3,7 +3,7 @@ namespace App\Controller;
 
 class helloworld_controller
 {
-	function index() 
+	function index_http() 
 	{
 		// Handle the input
 		$name = e(@$_GET['name'])?: 'World';

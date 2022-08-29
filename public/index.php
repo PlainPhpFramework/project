@@ -7,7 +7,7 @@
 $base = realpath(__dir__.'/..');
 set_include_path(implode(PATH_SEPARATOR, [
     $base . '/app',
-    $base . '/packages',
+    $base . '/packages/plainphp/core-package',
 ]));
 
 // Bootstrap the app

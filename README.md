@@ -9,5 +9,3 @@ This will create new a project in 'myproject' and automatically executes compose
 Are you a developer? Run this command instead:
 
 ```composer create-project plainphp/project myproject -s dev --ignore-platform-reqs```
-
-test

@@ -4,7 +4,7 @@ namespace App\Controller;
 
 class default_controller
 {
-	function index()
+	function index_http()
 	{
 		echo "It works!";
 	}

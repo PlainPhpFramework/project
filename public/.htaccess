@@ -3,14 +3,14 @@ Options -Indexes
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} !^localhost [NC]
-RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{REQUEST_URI} !^/(.well-known)(/|$)
-RewriteRule ^(.*)$ https://www.example.com/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^localhost [NC]
+#RewriteCond %{HTTP:X-Forwarded-SSL} !on
+#RewriteCond %{REQUEST_URI} !^/(.well-known)(/|$)
+#RewriteRule ^(.*)$ https://www.example.com/$1 [R=301,L]
 
-RewriteCond %{HTTP_HOST} ^example\.com [NC]
-RewriteCond %{REQUEST_URI} !^/(.well-known)(/|$)
-RewriteRule ^(.*)$ https://www.example.com/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} ^example\.com [NC]
+#RewriteCond %{REQUEST_URI} !^/(.well-known)(/|$)
+#RewriteRule ^(.*)$ https://www.example.com/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

@@ -6,7 +6,8 @@
         "php": ">=8.0",
         "plainphp/core-package": "dev-main",
         "plainphp/library": "dev-main",
-        "cocur/slugify": "^4.0"
+        "cocur/slugify": "^4.0",
+        "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {
         "filp/whoops": "^2.8"
@@ -30,5 +31,10 @@
             "email": "f.terenzani@gmail.com"
         }
     ],
+    "scripts": {
+        "post-package-update": [
+            "@php vendor/bin/plainphp-post-package-update.php"
+        ]
+    },
     "minimum-stability": "dev"
 }

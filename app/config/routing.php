@@ -9,9 +9,9 @@ return (object) [
 	],
 	'routes' => [
 		// Examples:
-		//'/' => 'homepage/index',
-		'/hello/:slug' => 'default/greet_user',
-		'/controller/:@action' => 'controller/long/name'
+		// '/' => 'homepage/index',
+		// '/hello/:slug' => 'default/greet_user',
+		// '/controller/:@action' => 'controller/long/name'
 	],
 	'default_controller' => 'default',
 	'default_action' => 'index',

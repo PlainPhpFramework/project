@@ -5,3 +5,4 @@
 /packages/
 !/packages/.keep
 composer.lock
+/app/config/
